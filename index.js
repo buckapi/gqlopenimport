@@ -39,7 +39,7 @@ function server () {
           ] 
 
     });   
-    serverApollo.listen({ port: 4001 }).then(({url})=>{
+    serverApollo.listen({ port: 4004 }).then(({url})=>{
         console.log(`Server ON, ${url}`);            
     })  
 } 
